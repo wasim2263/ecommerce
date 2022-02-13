@@ -7,7 +7,7 @@ document.getElementById('deposit-submit').addEventListener("click", function() {
     console.log(deposit);
     //clear the deposit input field
     depositAmount.value = "";
-    //deposit show
+    //deposit show in deposit
     const depositTotalAmount = document.getElementById('total-deposit-amount');
     const previousDepositTotalAmountText = depositTotalAmount.innerText;
     //
